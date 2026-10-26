@@ -24,6 +24,9 @@ htmlcov/
 # Generated reports (sample report is committed under docs/)
 reports/*.json
 
+# Large generated datasets (re-create with scripts/generate_sample_data.py)
+data/large_*.csv
+
 # Editor / OS
 .vscode/
 .idea/
