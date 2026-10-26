@@ -21,9 +21,9 @@ grade-analytics = "grade_analytics.cli:main"
 where = ["src"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["tests", "src"]
 pythonpath = ["src"]
-addopts = "-ra"
+addopts = "-ra --doctest-modules --ignore=src/grade_analytics/__main__.py"
 
 [tool.mypy]
 python_version = "3.11"
