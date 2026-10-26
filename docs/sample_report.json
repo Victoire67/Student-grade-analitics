@@ -1,0 +1,796 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-26T20:48:28+00:00",
+    "source_file": "students.csv",
+    "tool_version": "1.0.0",
+    "student_count": 40,
+    "course_count": 8,
+    "record_count": 180
+  },
+  "overall_statistics": {
+    "count": 180,
+    "mean": 77.88,
+    "median": 78.0,
+    "mode": [
+      73.0
+    ],
+    "std_dev": 10.0,
+    "minimum": 49.0,
+    "maximum": 100.0
+  },
+  "grade_distribution": {
+    "A": 22,
+    "B": 58,
+    "C": 66,
+    "D": 26,
+    "F": 8
+  },
+  "top_performers": [
+    {
+      "rank": 1,
+      "student_id": "S0033",
+      "name": "Chloe Okafor",
+      "major": "Mathematics",
+      "year": 2,
+      "average": 96.75,
+      "weighted_average": 96.92,
+      "percentile": 98.75,
+      "letter": "A"
+    },
+    {
+      "rank": 2,
+      "student_id": "S0026",
+      "name": "Ines Ivanova",
+      "major": "Biology",
+      "year": 3,
+      "average": 90.8,
+      "weighted_average": 91.12,
+      "percentile": 96.25,
+      "letter": "A"
+    },
+    {
+      "rank": 3,
+      "student_id": "S0031",
+      "name": "Yusuf Garcia",
+      "major": "Economics",
+      "year": 2,
+      "average": 89.33,
+      "weighted_average": 89.5,
+      "percentile": 93.75,
+      "letter": "B"
+    },
+    {
+      "rank": 4,
+      "student_id": "S0010",
+      "name": "Jamal Uwase",
+      "major": "Computer Science",
+      "year": 2,
+      "average": 89.33,
+      "weighted_average": 89.05,
+      "percentile": 91.25,
+      "letter": "B"
+    },
+    {
+      "rank": 5,
+      "student_id": "S0038",
+      "name": "Tara Garcia",
+      "major": "Mathematics",
+      "year": 3,
+      "average": 86.33,
+      "weighted_average": 86.7,
+      "percentile": 88.75,
+      "letter": "B"
+    }
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "student_id": "S0033",
+      "name": "Chloe Okafor",
+      "major": "Mathematics",
+      "year": 2,
+      "average": 96.75,
+      "weighted_average": 96.92,
+      "percentile": 98.75,
+      "letter": "A"
+    },
+    {
+      "rank": 2,
+      "student_id": "S0026",
+      "name": "Ines Ivanova",
+      "major": "Biology",
+      "year": 3,
+      "average": 90.8,
+      "weighted_average": 91.12,
+      "percentile": 96.25,
+      "letter": "A"
+    },
+    {
+      "rank": 3,
+      "student_id": "S0031",
+      "name": "Yusuf Garcia",
+      "major": "Economics",
+      "year": 2,
+      "average": 89.33,
+      "weighted_average": 89.5,
+      "percentile": 93.75,
+      "letter": "B"
+    },
+    {
+      "rank": 4,
+      "student_id": "S0010",
+      "name": "Jamal Uwase",
+      "major": "Computer Science",
+      "year": 2,
+      "average": 89.33,
+      "weighted_average": 89.05,
+      "percentile": 91.25,
+      "letter": "B"
+    },
+    {
+      "rank": 5,
+      "student_id": "S0038",
+      "name": "Tara Garcia",
+      "major": "Mathematics",
+      "year": 3,
+      "average": 86.33,
+      "weighted_average": 86.7,
+      "percentile": 88.75,
+      "letter": "B"
+    },
+    {
+      "rank": 6,
+      "student_id": "S0027",
+      "name": "Quinn Kim",
+      "major": "Physics",
+      "year": 4,
+      "average": 86.0,
+      "weighted_average": 86.28,
+      "percentile": 86.25,
+      "letter": "B"
+    },
+    {
+      "rank": 7,
+      "student_id": "S0014",
+      "name": "Grace Kim",
+      "major": "Biology",
+      "year": 4,
+      "average": 85.67,
+      "weighted_average": 85.7,
+      "percentile": 83.75,
+      "letter": "B"
+    },
+    {
+      "rank": 8,
+      "student_id": "S0015",
+      "name": "Rosa Mugisha",
+      "major": "Computer Science",
+      "year": 2,
+      "average": 84.17,
+      "weighted_average": 84.65,
+      "percentile": 81.25,
+      "letter": "B"
+    },
+    {
+      "rank": 9,
+      "student_id": "S0019",
+      "name": "Chloe Mugisha",
+      "major": "Economics",
+      "year": 1,
+      "average": 83.6,
+      "weighted_average": 83.65,
+      "percentile": 78.75,
+      "letter": "B"
+    },
+    {
+      "rank": 10,
+      "student_id": "S0003",
+      "name": "Liam Brown",
+      "major": "Computer Science",
+      "year": 4,
+      "average": 83.17,
+      "weighted_average": 83.05,
+      "percentile": 76.25,
+      "letter": "B"
+    },
+    {
+      "rank": 11,
+      "student_id": "S0006",
+      "name": "Sami Nguyen",
+      "major": "Mathematics",
+      "year": 4,
+      "average": 83.0,
+      "weighted_average": 82.45,
+      "percentile": 73.75,
+      "letter": "B"
+    },
+    {
+      "rank": 12,
+      "student_id": "S0020",
+      "name": "Zoe Mugisha",
+      "major": "Biology",
+      "year": 3,
+      "average": 82.6,
+      "weighted_average": 82.44,
+      "percentile": 71.25,
+      "letter": "B"
+    },
+    {
+      "rank": 13,
+      "student_id": "S0032",
+      "name": "Vera Nguyen",
+      "major": "Economics",
+      "year": 4,
+      "average": 82.0,
+      "weighted_average": 82.33,
+      "percentile": 68.75,
+      "letter": "B"
+    },
+    {
+      "rank": 14,
+      "student_id": "S0011",
+      "name": "Rosa Kim",
+      "major": "Physics",
+      "year": 4,
+      "average": 82.0,
+      "weighted_average": 82.22,
+      "percentile": 66.25,
+      "letter": "B"
+    },
+    {
+      "rank": 15,
+      "student_id": "S0012",
+      "name": "Umar Smith",
+      "major": "Mathematics",
+      "year": 1,
+      "average": 81.6,
+      "weighted_average": 81.78,
+      "percentile": 63.75,
+      "letter": "B"
+    },
+    {
+      "rank": 16,
+      "student_id": "S0036",
+      "name": "Grace Tanaka",
+      "major": "Physics",
+      "year": 3,
+      "average": 80.67,
+      "weighted_average": 80.32,
+      "percentile": 61.25,
+      "letter": "B"
+    },
+    {
+      "rank": 17,
+      "student_id": "S0009",
+      "name": "Umar Silva",
+      "major": "Biology",
+      "year": 2,
+      "average": 79.5,
+      "weighted_average": 80.27,
+      "percentile": 58.75,
+      "letter": "B"
+    },
+    {
+      "rank": 18,
+      "student_id": "S0001",
+      "name": "Umar Garcia",
+      "major": "Computer Science",
+      "year": 3,
+      "average": 79.0,
+      "weighted_average": 79.1,
+      "percentile": 56.25,
+      "letter": "C"
+    },
+    {
+      "rank": 19,
+      "student_id": "S0022",
+      "name": "Wei Okafor",
+      "major": "Biology",
+      "year": 1,
+      "average": 78.0,
+      "weighted_average": 78.87,
+      "percentile": 53.75,
+      "letter": "C"
+    },
+    {
+      "rank": 20,
+      "student_id": "S0013",
+      "name": "Zoe Kowalski",
+      "major": "Mathematics",
+      "year": 1,
+      "average": 78.33,
+      "weighted_average": 78.3,
+      "percentile": 51.25,
+      "letter": "C"
+    },
+    {
+      "rank": 21,
+      "student_id": "S0008",
+      "name": "Rosa Mugisha",
+      "major": "Computer Science",
+      "year": 3,
+      "average": 77.5,
+      "weighted_average": 78.0,
+      "percentile": 48.75,
+      "letter": "C"
+    },
+    {
+      "rank": 22,
+      "student_id": "S0037",
+      "name": "Umar Smith",
+      "major": "Computer Science",
+      "year": 2,
+      "average": 77.75,
+      "weighted_average": 77.36,
+      "percentile": 46.25,
+      "letter": "C"
+    },
+    {
+      "rank": 23,
+      "student_id": "S0021",
+      "name": "Umar Brown",
+      "major": "Biology",
+      "year": 4,
+      "average": 76.83,
+      "weighted_average": 77.09,
+      "percentile": 43.75,
+      "letter": "C"
+    },
+    {
+      "rank": 24,
+      "student_id": "S0005",
+      "name": "Maya Brown",
+      "major": "Biology",
+      "year": 2,
+      "average": 75.33,
+      "weighted_average": 76.4,
+      "percentile": 41.25,
+      "letter": "C"
+    },
+    {
+      "rank": 25,
+      "student_id": "S0040",
+      "name": "Noah Mensah",
+      "major": "Computer Science",
+      "year": 4,
+      "average": 75.83,
+      "weighted_average": 76.24,
+      "percentile": 38.75,
+      "letter": "C"
+    },
+    {
+      "rank": 26,
+      "student_id": "S0035",
+      "name": "Femi Tanaka",
+      "major": "Mathematics",
+      "year": 1,
+      "average": 75.0,
+      "weighted_average": 74.7,
+      "percentile": 36.25,
+      "letter": "C"
+    },
+    {
+      "rank": 27,
+      "student_id": "S0018",
+      "name": "Ben Chen",
+      "major": "Economics",
+      "year": 3,
+      "average": 75.25,
+      "weighted_average": 74.64,
+      "percentile": 33.75,
+      "letter": "C"
+    },
+    {
+      "rank": 28,
+      "student_id": "S0023",
+      "name": "Liam Kim",
+      "major": "Mathematics",
+      "year": 1,
+      "average": 73.5,
+      "weighted_average": 73.38,
+      "percentile": 31.25,
+      "letter": "C"
+    },
+    {
+      "rank": 29,
+      "student_id": "S0017",
+      "name": "Femi Smith",
+      "major": "Biology",
+      "year": 1,
+      "average": 74.33,
+      "weighted_average": 73.3,
+      "percentile": 28.75,
+      "letter": "C"
+    },
+    {
+      "rank": 30,
+      "student_id": "S0029",
+      "name": "Umar Nguyen",
+      "major": "Economics",
+      "year": 4,
+      "average": 73.0,
+      "weighted_average": 73.0,
+      "percentile": 25.0,
+      "letter": "C"
+    },
+    {
+      "rank": 30,
+      "student_id": "S0039",
+      "name": "Sami Uwase",
+      "major": "Computer Science",
+      "year": 3,
+      "average": 73.0,
+      "weighted_average": 73.0,
+      "percentile": 25.0,
+      "letter": "C"
+    },
+    {
+      "rank": 32,
+      "student_id": "S0002",
+      "name": "Tara Mugisha",
+      "major": "Biology",
+      "year": 2,
+      "average": 72.0,
+      "weighted_average": 72.14,
+      "percentile": 21.25,
+      "letter": "C"
+    },
+    {
+      "rank": 33,
+      "student_id": "S0024",
+      "name": "Noah Uwase",
+      "major": "Physics",
+      "year": 2,
+      "average": 70.67,
+      "weighted_average": 71.0,
+      "percentile": 18.75,
+      "letter": "C"
+    },
+    {
+      "rank": 34,
+      "student_id": "S0025",
+      "name": "Jamal Uwase",
+      "major": "Mathematics",
+      "year": 1,
+      "average": 69.17,
+      "weighted_average": 69.76,
+      "percentile": 16.25,
+      "letter": "D"
+    },
+    {
+      "rank": 35,
+      "student_id": "S0028",
+      "name": "Grace Kowalski",
+      "major": "Economics",
+      "year": 2,
+      "average": 69.0,
+      "weighted_average": 69.0,
+      "percentile": 13.75,
+      "letter": "D"
+    },
+    {
+      "rank": 36,
+      "student_id": "S0004",
+      "name": "Daniel Martin",
+      "major": "Physics",
+      "year": 4,
+      "average": 68.75,
+      "weighted_average": 68.79,
+      "percentile": 11.25,
+      "letter": "D"
+    },
+    {
+      "rank": 37,
+      "student_id": "S0007",
+      "name": "Chloe Smith",
+      "major": "Computer Science",
+      "year": 2,
+      "average": 65.33,
+      "weighted_average": 65.4,
+      "percentile": 8.75,
+      "letter": "D"
+    },
+    {
+      "rank": 38,
+      "student_id": "S0030",
+      "name": "Hugo Kim",
+      "major": "Mathematics",
+      "year": 1,
+      "average": 64.0,
+      "weighted_average": 64.05,
+      "percentile": 6.25,
+      "letter": "D"
+    },
+    {
+      "rank": 39,
+      "student_id": "S0016",
+      "name": "Vera Mensah",
+      "major": "Mathematics",
+      "year": 2,
+      "average": 60.33,
+      "weighted_average": 60.0,
+      "percentile": 3.75,
+      "letter": "D"
+    },
+    {
+      "rank": 40,
+      "student_id": "S0034",
+      "name": "Maya Mugisha",
+      "major": "Biology",
+      "year": 4,
+      "average": 57.33,
+      "weighted_average": 57.2,
+      "percentile": 1.25,
+      "letter": "F"
+    }
+  ],
+  "by_major": {
+    "Biology": {
+      "student_count": 10,
+      "average": 77.45,
+      "top_student": "Ines Ivanova"
+    },
+    "Computer Science": {
+      "student_count": 9,
+      "average": 78.43,
+      "top_student": "Jamal Uwase"
+    },
+    "Economics": {
+      "student_count": 6,
+      "average": 78.69,
+      "top_student": "Yusuf Garcia"
+    },
+    "Mathematics": {
+      "student_count": 10,
+      "average": 76.8,
+      "top_student": "Chloe Okafor"
+    },
+    "Physics": {
+      "student_count": 5,
+      "average": 77.72,
+      "top_student": "Quinn Kim"
+    }
+  },
+  "by_year": {
+    "Year 1": {
+      "student_count": 9,
+      "average": 75.31,
+      "top_student": "Chloe Mugisha"
+    },
+    "Year 2": {
+      "student_count": 12,
+      "average": 77.64,
+      "top_student": "Chloe Okafor"
+    },
+    "Year 3": {
+      "student_count": 8,
+      "average": 80.67,
+      "top_student": "Ines Ivanova"
+    },
+    "Year 4": {
+      "student_count": 11,
+      "average": 77.67,
+      "top_student": "Quinn Kim"
+    }
+  },
+  "courses": {
+    "BIO101": {
+      "course_name": "Cell Biology",
+      "credits": 3,
+      "enrollment": 25,
+      "statistics": {
+        "count": 25,
+        "mean": 76.28,
+        "median": 76.0,
+        "mode": [
+          57.0,
+          67.0,
+          73.0,
+          81.0,
+          87.0
+        ],
+        "std_dev": 10.47,
+        "minimum": 57.0,
+        "maximum": 98.0
+      },
+      "grade_distribution": {
+        "A": 3,
+        "B": 7,
+        "C": 8,
+        "D": 5,
+        "F": 2
+      }
+    },
+    "CS101": {
+      "course_name": "Intro to Programming",
+      "credits": 4,
+      "enrollment": 21,
+      "statistics": {
+        "count": 21,
+        "mean": 81.0,
+        "median": 80.0,
+        "mode": [
+          80.0
+        ],
+        "std_dev": 8.31,
+        "minimum": 68.0,
+        "maximum": 99.0
+      },
+      "grade_distribution": {
+        "A": 3,
+        "B": 9,
+        "C": 7,
+        "D": 2,
+        "F": 0
+      }
+    },
+    "CS201": {
+      "course_name": "Data Structures",
+      "credits": 4,
+      "enrollment": 23,
+      "statistics": {
+        "count": 23,
+        "mean": 77.52,
+        "median": 79.0,
+        "mode": [
+          72.0
+        ],
+        "std_dev": 9.09,
+        "minimum": 56.0,
+        "maximum": 92.0
+      },
+      "grade_distribution": {
+        "A": 3,
+        "B": 7,
+        "C": 10,
+        "D": 2,
+        "F": 1
+      }
+    },
+    "ECON101": {
+      "course_name": "Microeconomics",
+      "credits": 3,
+      "enrollment": 21,
+      "statistics": {
+        "count": 21,
+        "mean": 80.29,
+        "median": 77.0,
+        "mode": [
+          75.0,
+          77.0,
+          86.0
+        ],
+        "std_dev": 11.55,
+        "minimum": 58.0,
+        "maximum": 100.0
+      },
+      "grade_distribution": {
+        "A": 5,
+        "B": 5,
+        "C": 7,
+        "D": 3,
+        "F": 1
+      }
+    },
+    "MATH101": {
+      "course_name": "Calculus I",
+      "credits": 4,
+      "enrollment": 21,
+      "statistics": {
+        "count": 21,
+        "mean": 74.67,
+        "median": 78.0,
+        "mode": [
+          84.0
+        ],
+        "std_dev": 9.9,
+        "minimum": 49.0,
+        "maximum": 88.0
+      },
+      "grade_distribution": {
+        "A": 0,
+        "B": 8,
+        "C": 6,
+        "D": 6,
+        "F": 1
+      }
+    },
+    "MATH201": {
+      "course_name": "Linear Algebra",
+      "credits": 3,
+      "enrollment": 22,
+      "statistics": {
+        "count": 22,
+        "mean": 76.18,
+        "median": 76.0,
+        "mode": [
+          70.0,
+          71.0,
+          73.0,
+          77.0,
+          82.0
+        ],
+        "std_dev": 10.64,
+        "minimum": 52.0,
+        "maximum": 100.0
+      },
+      "grade_distribution": {
+        "A": 2,
+        "B": 6,
+        "C": 10,
+        "D": 2,
+        "F": 2
+      }
+    },
+    "PHYS101": {
+      "course_name": "Mechanics",
+      "credits": 4,
+      "enrollment": 24,
+      "statistics": {
+        "count": 24,
+        "mean": 79.12,
+        "median": 83.0,
+        "mode": [
+          85.0
+        ],
+        "std_dev": 9.76,
+        "minimum": 56.0,
+        "maximum": 92.0
+      },
+      "grade_distribution": {
+        "A": 3,
+        "B": 10,
+        "C": 6,
+        "D": 4,
+        "F": 1
+      }
+    },
+    "STAT201": {
+      "course_name": "Probability & Statistics",
+      "credits": 3,
+      "enrollment": 23,
+      "statistics": {
+        "count": 23,
+        "mean": 78.17,
+        "median": 78.0,
+        "mode": [
+          73.0,
+          75.0,
+          78.0
+        ],
+        "std_dev": 8.21,
+        "minimum": 61.0,
+        "maximum": 100.0
+      },
+      "grade_distribution": {
+        "A": 3,
+        "B": 6,
+        "C": 12,
+        "D": 2,
+        "F": 0
+      }
+    }
+  },
+  "semester_trends": [
+    {
+      "semester": "2023-Fall",
+      "average": 77.56,
+      "rolling_average": 77.56
+    },
+    {
+      "semester": "2024-Spring",
+      "average": 76.62,
+      "rolling_average": 77.09
+    },
+    {
+      "semester": "2024-Fall",
+      "average": 78.92,
+      "rolling_average": 77.7
+    },
+    {
+      "semester": "2025-Spring",
+      "average": 79.43,
+      "rolling_average": 78.33
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+========================================================================
+ STUDENT GRADE ANALYTICS REPORT
+========================================================================
+ Source   : students.csv
+ Students : 40   Courses: 8   Records: 180
+ Mean 77.88  Median 78.00  Std dev 10.00  Mode 73.00
+
+ Grade distribution
+   A | █████████████ 22 (12.2%)
+   B | ███████████████████████████████████ 58 (32.2%)
+   C | ████████████████████████████████████████ 66 (36.7%)
+   D | ████████████████ 26 (14.4%)
+   F | █████ 8 (4.4%)
+
+ Top 5 performers
+   Rank  ID     Name                 Major               W.Avg   Pctl
+      1  S0033  Chloe Okafor         Mathematics         96.92   98.8
+      2  S0026  Ines Ivanova         Biology             91.12   96.2
+      3  S0031  Yusuf Garcia         Economics           89.50   93.8
+      4  S0010  Jamal Uwase          Computer Science    89.05   91.2
+      5  S0038  Tara Garcia          Mathematics         86.70   88.8
+
+ Average by major
+   Biology                 77.45  (10 students, top: Ines Ivanova)
+   Computer Science        78.43  (9 students, top: Jamal Uwase)
+   Economics               78.69  (6 students, top: Yusuf Garcia)
+   Mathematics             76.80  (10 students, top: Chloe Okafor)
+   Physics                 77.72  (5 students, top: Quinn Kim)
+
+ Semester trends
+   2023-Fall   | ███████████                    avg  77.56  rolling  77.56
+   2024-Spring | █                              avg  76.62  rolling  77.09
+   2024-Fall   | █████████████████████████      avg  78.92  rolling  77.70
+   2025-Spring | ██████████████████████████████ avg  79.43  rolling  78.33
+========================================================================
+ Report written to reports/report.json
