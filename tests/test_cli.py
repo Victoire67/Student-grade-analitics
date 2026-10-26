@@ -7,7 +7,9 @@ from pathlib import Path
 
 import pytest
 
-from grade_analytics.cli import main
+from grade_analytics.cli import main, render_summary
+from grade_analytics.models import Course, Grade, Student
+from grade_analytics.report import build_report
 
 
 def test_generates_report_and_summary(
@@ -50,6 +52,14 @@ def test_empty_file(tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> None:
     )
     assert main([str(empty), "-o", str(tmp_path / "r.json")]) == 1
     assert "no valid records" in capsys.readouterr().err
+
+
+def test_summary_number_formatting() -> None:
+    student = Student("S1", "Ann", "Math", 1)
+    student.add_grade(Grade(Course("M1", "Calc", 3), "2024-Fall", 76.8))
+    text = render_summary(build_report([student]), top_n=1)
+    assert "Mean 76.80  Median 76.80  Std dev 0.00  Mode 76.80" in text
+    assert "Math                    76.80  (1 student, top: Ann)" in text
 
 
 @pytest.mark.parametrize("args", [["--top", "-1"], ["--window", "0"]])
