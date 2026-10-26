@@ -8,7 +8,6 @@ version = "1.0.0"
 description = "Student grade analytics tool built on Python's advanced collections."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
 dependencies = []
 
 [project.optional-dependencies]
