@@ -12,7 +12,7 @@ from typing import Callable, DefaultDict, Dict, Hashable, List, Optional, TypeVa
 
 from .models import Course, Student, score_to_letter, semester_sort_key
 from .schemas import StudentRanking, TrendPoint
-from .stats import RollingAverage, mean, percentile_rank
+from .stats import RollingAverage, mean, percentile_ranks
 
 __all__ = [
     "courses_by_code",
@@ -113,12 +113,14 @@ def rank_students(students: List[Student]) -> List[StudentRanking]:
             graded.append((student, weighted, average))
 
     graded.sort(key=lambda item: (-item[1], -item[2], item[0].student_id))
-    population = [weighted for _, weighted, _ in graded]
+    percentiles = percentile_ranks([weighted for _, weighted, _ in graded])
 
     rankings: List[StudentRanking] = []
     previous: Optional[float] = None
     rank = 0
-    for position, (student, weighted, average) in enumerate(graded, start=1):
+    for position, ((student, weighted, average), pct) in enumerate(
+        zip(graded, percentiles), start=1
+    ):
         rounded = round(weighted, _RANK_PRECISION)
         if rounded != previous:
             rank = position
@@ -132,7 +134,7 @@ def rank_students(students: List[Student]) -> List[StudentRanking]:
                 year=student.year,
                 average=average,
                 weighted_average=weighted,
-                percentile=percentile_rank(weighted, population),
+                percentile=pct,
                 letter=score_to_letter(weighted).value,
             )
         )

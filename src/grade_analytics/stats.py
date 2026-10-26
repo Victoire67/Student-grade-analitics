@@ -7,6 +7,7 @@ averages use a bounded :class:`collections.deque` so each update is O(1).
 from __future__ import annotations
 
 import math
+from bisect import bisect_left, bisect_right
 from collections import Counter, deque
 from typing import Deque, Iterable, List, Optional, Sequence
 
@@ -22,6 +23,7 @@ __all__ = [
     "mode",
     "percentile",
     "percentile_rank",
+    "percentile_ranks",
     "rolling_averages",
     "std_dev",
 ]
@@ -96,6 +98,26 @@ def percentile_rank(value: float, population: Sequence[float]) -> float:
     below = sum(1 for v in population if v < value)
     equal = sum(1 for v in population if v == value)
     return 100.0 * (below + 0.5 * equal) / len(population)
+
+
+def percentile_ranks(values: Sequence[float]) -> List[float]:
+    """:func:`percentile_rank` of every value against ``values`` itself.
+
+    Sorts once and uses :mod:`bisect`, so ranking ``n`` values is
+    O(n log n) instead of the O(n^2) of calling :func:`percentile_rank` in a
+    loop. Results are returned in input order.
+
+    >>> percentile_ranks([80, 60, 90, 70])
+    [62.5, 12.5, 87.5, 37.5]
+    """
+    ordered = sorted(values)
+    n = len(ordered)
+    ranks: List[float] = []
+    for value in values:
+        below = bisect_left(ordered, value)
+        equal = bisect_right(ordered, value, lo=below) - below
+        ranks.append(100.0 * (below + 0.5 * equal) / n)
+    return ranks
 
 
 def grade_distribution(scores: Iterable[float]) -> "Counter[str]":

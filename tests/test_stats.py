@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import random
 import statistics
 from collections import Counter, deque
 
@@ -16,6 +17,7 @@ from grade_analytics.stats import (
     mode,
     percentile,
     percentile_rank,
+    percentile_ranks,
     rolling_averages,
     std_dev,
 )
@@ -70,6 +72,13 @@ class TestPercentiles:
         assert percentile_rank(85.0, DATA) == pytest.approx(100 * (2 + 1) / 6)
         assert percentile_rank(100.0, DATA) == 100.0
         assert percentile_rank(0.0, DATA) == 0.0
+
+    def test_percentile_ranks_matches_reference(self) -> None:
+        rng = random.Random(0)
+        values = [float(rng.randint(40, 100)) for _ in range(500)]
+        expected = [percentile_rank(v, values) for v in values]
+        assert percentile_ranks(values) == pytest.approx(expected)
+        assert percentile_ranks([]) == []
 
     def test_percentile_rank_requires_population(self) -> None:
         with pytest.raises(ValueError):
