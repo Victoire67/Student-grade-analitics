@@ -51,10 +51,15 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def _fmt(value: Optional[float]) -> str:
+    return "n/a" if value is None else f"{value:.2f}"
+
+
 def _group_line(label: str, group: GroupSummary) -> str:
     count = group["student_count"]
     noun = "student" if count == 1 else "students"
-    return f"   {label:<22} {group['average']:>6}  ({count} {noun}, top: {group['top_student']})"
+    top = group["top_student"] or "n/a"
+    return f"   {label:<22} {_fmt(group['average']):>6}  ({count} {noun}, top: {top})"
 
 
 def render_summary(report: AnalyticsReport, top_n: int) -> str:
@@ -68,8 +73,8 @@ def render_summary(report: AnalyticsReport, top_n: int) -> str:
         f" Source   : {meta['source_file']}",
         f" Students : {meta['student_count']}   Courses: {meta['course_count']}"
         f"   Records: {meta['record_count']}",
-        f" Mean {overall['mean']}  Median {overall['median']}  Std dev {overall['std_dev']}"
-        f"  Mode {overall['mode']}",
+        f" Mean {_fmt(overall['mean'])}  Median {_fmt(overall['median'])}"
+        f"  Std dev {_fmt(overall['std_dev'])}  Mode {', '.join(map(_fmt, overall['mode']))}",
         "",
         " Grade distribution",
         *("   " + line for line in bar_chart(report["grade_distribution"])),
