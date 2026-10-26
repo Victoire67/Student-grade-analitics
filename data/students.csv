@@ -1,0 +1,181 @@
+student_id,name,major,year,course_code,course_name,credits,semester,score
+S0001,Umar Garcia,Computer Science,3,BIO101,Cell Biology,3,2023-Fall,79
+S0001,Umar Garcia,Computer Science,3,CS101,Intro to Programming,4,2024-Spring,80
+S0001,Umar Garcia,Computer Science,3,STAT201,Probability & Statistics,3,2024-Fall,78
+S0002,Tara Mugisha,Biology,2,PHYS101,Mechanics,4,2023-Fall,64
+S0002,Tara Mugisha,Biology,2,BIO101,Cell Biology,3,2024-Spring,73
+S0002,Tara Mugisha,Biology,2,CS101,Intro to Programming,4,2024-Fall,79
+S0002,Tara Mugisha,Biology,2,CS201,Data Structures,4,2025-Spring,76
+S0002,Tara Mugisha,Biology,2,MATH201,Linear Algebra,3,2023-Fall,70
+S0002,Tara Mugisha,Biology,2,STAT201,Probability & Statistics,3,2024-Spring,70
+S0003,Liam Brown,Computer Science,4,CS201,Data Structures,4,2023-Fall,83
+S0003,Liam Brown,Computer Science,4,PHYS101,Mechanics,4,2024-Spring,85
+S0003,Liam Brown,Computer Science,4,MATH101,Calculus I,4,2024-Fall,79
+S0003,Liam Brown,Computer Science,4,BIO101,Cell Biology,3,2025-Spring,76
+S0003,Liam Brown,Computer Science,4,ECON101,Microeconomics,3,2023-Fall,94
+S0003,Liam Brown,Computer Science,4,MATH201,Linear Algebra,3,2024-Spring,82
+S0004,Daniel Martin,Physics,4,PHYS101,Mechanics,4,2023-Fall,66
+S0004,Daniel Martin,Physics,4,ECON101,Microeconomics,3,2024-Spring,68
+S0004,Daniel Martin,Physics,4,BIO101,Cell Biology,3,2024-Fall,69
+S0004,Daniel Martin,Physics,4,CS101,Intro to Programming,4,2025-Spring,72
+S0005,Maya Brown,Biology,2,MATH201,Linear Algebra,3,2023-Fall,73
+S0005,Maya Brown,Biology,2,BIO101,Cell Biology,3,2024-Spring,67
+S0005,Maya Brown,Biology,2,CS101,Intro to Programming,4,2024-Fall,86
+S0006,Sami Nguyen,Mathematics,4,MATH101,Calculus I,4,2023-Fall,73
+S0006,Sami Nguyen,Mathematics,4,STAT201,Probability & Statistics,3,2024-Spring,78
+S0006,Sami Nguyen,Mathematics,4,CS201,Data Structures,4,2024-Fall,82
+S0006,Sami Nguyen,Mathematics,4,ECON101,Microeconomics,3,2025-Spring,89
+S0006,Sami Nguyen,Mathematics,4,BIO101,Cell Biology,3,2023-Fall,91
+S0006,Sami Nguyen,Mathematics,4,MATH201,Linear Algebra,3,2024-Spring,85
+S0007,Chloe Smith,Computer Science,2,BIO101,Cell Biology,3,2023-Fall,57
+S0007,Chloe Smith,Computer Science,2,MATH201,Linear Algebra,3,2024-Spring,73
+S0007,Chloe Smith,Computer Science,2,PHYS101,Mechanics,4,2024-Fall,66
+S0008,Rosa Mugisha,Computer Science,3,STAT201,Probability & Statistics,3,2023-Fall,72
+S0008,Rosa Mugisha,Computer Science,3,CS101,Intro to Programming,4,2024-Spring,87
+S0008,Rosa Mugisha,Computer Science,3,ECON101,Microeconomics,3,2024-Fall,76
+S0008,Rosa Mugisha,Computer Science,3,MATH101,Calculus I,4,2025-Spring,75
+S0009,Umar Silva,Biology,2,CS101,Intro to Programming,4,2023-Fall,89
+S0009,Umar Silva,Biology,2,PHYS101,Mechanics,4,2024-Spring,77
+S0009,Umar Silva,Biology,2,MATH101,Calculus I,4,2024-Fall,84
+S0009,Umar Silva,Biology,2,MATH201,Linear Algebra,3,2025-Spring,68
+S0010,Jamal Uwase,Computer Science,2,CS201,Data Structures,4,2023-Fall,82
+S0010,Jamal Uwase,Computer Science,2,BIO101,Cell Biology,3,2024-Spring,84
+S0010,Jamal Uwase,Computer Science,2,PHYS101,Mechanics,4,2024-Fall,92
+S0010,Jamal Uwase,Computer Science,2,STAT201,Probability & Statistics,3,2025-Spring,90
+S0010,Jamal Uwase,Computer Science,2,ECON101,Microeconomics,3,2023-Fall,100
+S0010,Jamal Uwase,Computer Science,2,MATH101,Calculus I,4,2024-Spring,88
+S0011,Rosa Kim,Physics,4,STAT201,Probability & Statistics,3,2023-Fall,80
+S0011,Rosa Kim,Physics,4,PHYS101,Mechanics,4,2024-Spring,87
+S0011,Rosa Kim,Physics,4,MATH201,Linear Algebra,3,2024-Fall,80
+S0011,Rosa Kim,Physics,4,CS101,Intro to Programming,4,2025-Spring,84
+S0011,Rosa Kim,Physics,4,CS201,Data Structures,4,2023-Fall,79
+S0012,Umar Smith,Mathematics,1,CS201,Data Structures,4,2023-Fall,80
+S0012,Umar Smith,Mathematics,1,PHYS101,Mechanics,4,2024-Spring,85
+S0012,Umar Smith,Mathematics,1,STAT201,Probability & Statistics,3,2024-Fall,91
+S0012,Umar Smith,Mathematics,1,MATH101,Calculus I,4,2025-Spring,83
+S0012,Umar Smith,Mathematics,1,MATH201,Linear Algebra,3,2023-Fall,69
+S0013,Zoe Kowalski,Mathematics,1,ECON101,Microeconomics,3,2023-Fall,74
+S0013,Zoe Kowalski,Mathematics,1,MATH201,Linear Algebra,3,2024-Spring,71
+S0013,Zoe Kowalski,Mathematics,1,BIO101,Cell Biology,3,2024-Fall,87
+S0013,Zoe Kowalski,Mathematics,1,STAT201,Probability & Statistics,3,2025-Spring,82
+S0013,Zoe Kowalski,Mathematics,1,CS101,Intro to Programming,4,2023-Fall,80
+S0013,Zoe Kowalski,Mathematics,1,MATH101,Calculus I,4,2024-Spring,76
+S0014,Grace Kim,Biology,4,STAT201,Probability & Statistics,3,2023-Fall,83
+S0014,Grace Kim,Biology,4,BIO101,Cell Biology,3,2024-Spring,88
+S0014,Grace Kim,Biology,4,PHYS101,Mechanics,4,2024-Fall,86
+S0015,Rosa Mugisha,Computer Science,2,CS101,Intro to Programming,4,2023-Fall,87
+S0015,Rosa Mugisha,Computer Science,2,CS201,Data Structures,4,2024-Spring,91
+S0015,Rosa Mugisha,Computer Science,2,MATH201,Linear Algebra,3,2024-Fall,77
+S0015,Rosa Mugisha,Computer Science,2,STAT201,Probability & Statistics,3,2025-Spring,80
+S0015,Rosa Mugisha,Computer Science,2,ECON101,Microeconomics,3,2023-Fall,90
+S0015,Rosa Mugisha,Computer Science,2,BIO101,Cell Biology,3,2024-Spring,80
+S0016,Vera Mensah,Mathematics,2,CS101,Intro to Programming,4,2023-Fall,68
+S0016,Vera Mensah,Mathematics,2,ECON101,Microeconomics,3,2024-Spring,64
+S0016,Vera Mensah,Mathematics,2,MATH101,Calculus I,4,2024-Fall,49
+S0017,Femi Smith,Biology,1,CS201,Data Structures,4,2023-Fall,64
+S0017,Femi Smith,Biology,1,ECON101,Microeconomics,3,2024-Spring,86
+S0017,Femi Smith,Biology,1,STAT201,Probability & Statistics,3,2024-Fall,73
+S0018,Ben Chen,Economics,3,ECON101,Microeconomics,3,2023-Fall,77
+S0018,Ben Chen,Economics,3,CS201,Data Structures,4,2024-Spring,80
+S0018,Ben Chen,Economics,3,MATH101,Calculus I,4,2024-Fall,62
+S0018,Ben Chen,Economics,3,MATH201,Linear Algebra,3,2025-Spring,82
+S0019,Chloe Mugisha,Economics,1,CS201,Data Structures,4,2023-Fall,83
+S0019,Chloe Mugisha,Economics,1,STAT201,Probability & Statistics,3,2024-Spring,75
+S0019,Chloe Mugisha,Economics,1,MATH101,Calculus I,4,2024-Fall,85
+S0019,Chloe Mugisha,Economics,1,ECON101,Microeconomics,3,2025-Spring,77
+S0019,Chloe Mugisha,Economics,1,BIO101,Cell Biology,3,2023-Fall,98
+S0020,Zoe Mugisha,Biology,3,CS201,Data Structures,4,2023-Fall,79
+S0020,Zoe Mugisha,Biology,3,CS101,Intro to Programming,4,2024-Spring,81
+S0020,Zoe Mugisha,Biology,3,ECON101,Microeconomics,3,2024-Fall,92
+S0020,Zoe Mugisha,Biology,3,PHYS101,Mechanics,4,2025-Spring,85
+S0020,Zoe Mugisha,Biology,3,STAT201,Probability & Statistics,3,2023-Fall,76
+S0021,Umar Brown,Biology,4,PHYS101,Mechanics,4,2023-Fall,89
+S0021,Umar Brown,Biology,4,CS101,Intro to Programming,4,2024-Spring,79
+S0021,Umar Brown,Biology,4,BIO101,Cell Biology,3,2024-Fall,75
+S0021,Umar Brown,Biology,4,MATH101,Calculus I,4,2025-Spring,66
+S0021,Umar Brown,Biology,4,CS201,Data Structures,4,2023-Fall,79
+S0021,Umar Brown,Biology,4,STAT201,Probability & Statistics,3,2024-Spring,73
+S0022,Wei Okafor,Biology,1,BIO101,Cell Biology,3,2023-Fall,65
+S0022,Wei Okafor,Biology,1,CS201,Data Structures,4,2024-Spring,87
+S0022,Wei Okafor,Biology,1,CS101,Intro to Programming,4,2024-Fall,80
+S0022,Wei Okafor,Biology,1,MATH101,Calculus I,4,2025-Spring,80
+S0023,Liam Kim,Mathematics,1,MATH201,Linear Algebra,3,2023-Fall,75
+S0023,Liam Kim,Mathematics,1,BIO101,Cell Biology,3,2024-Spring,72
+S0023,Liam Kim,Mathematics,1,CS201,Data Structures,4,2024-Fall,72
+S0023,Liam Kim,Mathematics,1,ECON101,Microeconomics,3,2025-Spring,75
+S0024,Noah Uwase,Physics,2,BIO101,Cell Biology,3,2023-Fall,71
+S0024,Noah Uwase,Physics,2,STAT201,Probability & Statistics,3,2024-Spring,67
+S0024,Noah Uwase,Physics,2,CS101,Intro to Programming,4,2024-Fall,74
+S0025,Jamal Uwase,Mathematics,1,ECON101,Microeconomics,3,2023-Fall,58
+S0025,Jamal Uwase,Mathematics,1,MATH101,Calculus I,4,2024-Spring,68
+S0025,Jamal Uwase,Mathematics,1,CS101,Intro to Programming,4,2024-Fall,73
+S0025,Jamal Uwase,Mathematics,1,BIO101,Cell Biology,3,2025-Spring,67
+S0025,Jamal Uwase,Mathematics,1,PHYS101,Mechanics,4,2023-Fall,79
+S0025,Jamal Uwase,Mathematics,1,MATH201,Linear Algebra,3,2024-Spring,70
+S0026,Ines Ivanova,Biology,3,BIO101,Cell Biology,3,2023-Fall,90
+S0026,Ines Ivanova,Biology,3,PHYS101,Mechanics,4,2024-Spring,91
+S0026,Ines Ivanova,Biology,3,STAT201,Probability & Statistics,3,2024-Fall,87
+S0026,Ines Ivanova,Biology,3,CS101,Intro to Programming,4,2025-Spring,96
+S0026,Ines Ivanova,Biology,3,MATH201,Linear Algebra,3,2023-Fall,90
+S0027,Quinn Kim,Physics,4,CS201,Data Structures,4,2023-Fall,92
+S0027,Quinn Kim,Physics,4,ECON101,Microeconomics,3,2024-Spring,86
+S0027,Quinn Kim,Physics,4,MATH101,Calculus I,4,2024-Fall,84
+S0027,Quinn Kim,Physics,4,PHYS101,Mechanics,4,2025-Spring,87
+S0027,Quinn Kim,Physics,4,BIO101,Cell Biology,3,2023-Fall,81
+S0028,Grace Kowalski,Economics,2,PHYS101,Mechanics,4,2023-Fall,67
+S0028,Grace Kowalski,Economics,2,MATH101,Calculus I,4,2024-Spring,64
+S0028,Grace Kowalski,Economics,2,CS201,Data Structures,4,2024-Fall,76
+S0029,Umar Nguyen,Economics,4,CS201,Data Structures,4,2023-Fall,72
+S0029,Umar Nguyen,Economics,4,MATH101,Calculus I,4,2024-Spring,65
+S0029,Umar Nguyen,Economics,4,PHYS101,Mechanics,4,2024-Fall,82
+S0029,Umar Nguyen,Economics,4,ECON101,Microeconomics,3,2025-Spring,73
+S0030,Hugo Kim,Mathematics,1,CS201,Data Structures,4,2023-Fall,60
+S0030,Hugo Kim,Mathematics,1,MATH201,Linear Algebra,3,2024-Spring,56
+S0030,Hugo Kim,Mathematics,1,BIO101,Cell Biology,3,2024-Fall,62
+S0030,Hugo Kim,Mathematics,1,PHYS101,Mechanics,4,2025-Spring,70
+S0030,Hugo Kim,Mathematics,1,STAT201,Probability & Statistics,3,2023-Fall,73
+S0030,Hugo Kim,Mathematics,1,MATH101,Calculus I,4,2024-Spring,63
+S0031,Yusuf Garcia,Economics,2,MATH201,Linear Algebra,3,2023-Fall,100
+S0031,Yusuf Garcia,Economics,2,BIO101,Cell Biology,3,2024-Spring,77
+S0031,Yusuf Garcia,Economics,2,CS101,Intro to Programming,4,2024-Fall,91
+S0032,Vera Nguyen,Economics,4,STAT201,Probability & Statistics,3,2023-Fall,75
+S0032,Vera Nguyen,Economics,4,MATH101,Calculus I,4,2024-Spring,84
+S0032,Vera Nguyen,Economics,4,CS201,Data Structures,4,2024-Fall,92
+S0032,Vera Nguyen,Economics,4,BIO101,Cell Biology,3,2025-Spring,87
+S0032,Vera Nguyen,Economics,4,MATH201,Linear Algebra,3,2023-Fall,77
+S0032,Vera Nguyen,Economics,4,PHYS101,Mechanics,4,2024-Spring,77
+S0033,Chloe Okafor,Mathematics,2,MATH201,Linear Algebra,3,2023-Fall,89
+S0033,Chloe Okafor,Mathematics,2,CS101,Intro to Programming,4,2024-Spring,99
+S0033,Chloe Okafor,Mathematics,2,STAT201,Probability & Statistics,3,2024-Fall,100
+S0033,Chloe Okafor,Mathematics,2,ECON101,Microeconomics,3,2025-Spring,99
+S0034,Maya Mugisha,Biology,4,BIO101,Cell Biology,3,2023-Fall,57
+S0034,Maya Mugisha,Biology,4,PHYS101,Mechanics,4,2024-Spring,56
+S0034,Maya Mugisha,Biology,4,ECON101,Microeconomics,3,2024-Fall,62
+S0034,Maya Mugisha,Biology,4,STAT201,Probability & Statistics,3,2025-Spring,61
+S0034,Maya Mugisha,Biology,4,CS201,Data Structures,4,2023-Fall,56
+S0034,Maya Mugisha,Biology,4,MATH201,Linear Algebra,3,2024-Spring,52
+S0035,Femi Tanaka,Mathematics,1,CS201,Data Structures,4,2023-Fall,72
+S0035,Femi Tanaka,Mathematics,1,ECON101,Microeconomics,3,2024-Spring,75
+S0035,Femi Tanaka,Mathematics,1,MATH201,Linear Algebra,3,2024-Fall,78
+S0036,Grace Tanaka,Physics,3,PHYS101,Mechanics,4,2023-Fall,86
+S0036,Grace Tanaka,Physics,3,BIO101,Cell Biology,3,2024-Spring,81
+S0036,Grace Tanaka,Physics,3,MATH201,Linear Algebra,3,2024-Fall,88
+S0036,Grace Tanaka,Physics,3,MATH101,Calculus I,4,2025-Spring,84
+S0036,Grace Tanaka,Physics,3,CS101,Intro to Programming,4,2023-Fall,73
+S0036,Grace Tanaka,Physics,3,CS201,Data Structures,4,2024-Spring,72
+S0037,Umar Smith,Computer Science,2,STAT201,Probability & Statistics,3,2023-Fall,78
+S0037,Umar Smith,Computer Science,2,ECON101,Microeconomics,3,2024-Spring,83
+S0037,Umar Smith,Computer Science,2,CS101,Intro to Programming,4,2024-Fall,74
+S0037,Umar Smith,Computer Science,2,PHYS101,Mechanics,4,2025-Spring,76
+S0038,Tara Garcia,Mathematics,3,PHYS101,Mechanics,4,2023-Fall,90
+S0038,Tara Garcia,Mathematics,3,STAT201,Probability & Statistics,3,2024-Spring,81
+S0038,Tara Garcia,Mathematics,3,ECON101,Microeconomics,3,2024-Fall,88
+S0039,Sami Uwase,Computer Science,3,CS101,Intro to Programming,4,2023-Fall,69
+S0039,Sami Uwase,Computer Science,3,MATH101,Calculus I,4,2024-Spring,78
+S0039,Sami Uwase,Computer Science,3,PHYS101,Mechanics,4,2024-Fall,72
+S0040,Noah Mensah,Computer Science,4,MATH101,Calculus I,4,2023-Fall,78
+S0040,Noah Mensah,Computer Science,4,MATH201,Linear Algebra,3,2024-Spring,71
+S0040,Noah Mensah,Computer Science,4,CS201,Data Structures,4,2024-Fall,74
+S0040,Noah Mensah,Computer Science,4,PHYS101,Mechanics,4,2025-Spring,84
+S0040,Noah Mensah,Computer Science,4,STAT201,Probability & Statistics,3,2023-Fall,75
+S0040,Noah Mensah,Computer Science,4,BIO101,Cell Biology,3,2024-Spring,73

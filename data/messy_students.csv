@@ -1,0 +1,9 @@
+student_id,name,major,year,course_code,course_name,credits,semester,score
+S9001,Alice Mugisha,Mathematics,2,MATH101,Calculus I,4,2024-Spring,88
+S9001,Alice Mugisha,Mathematics,2,MATH201,Linear Algebra,3,2024-Fall,93
+S9002,Brian Chen,Physics,1,PHYS101,Mechanics,4,2024-Fall,not_a_number
+S9002,Brian Chen,Physics,1,MATH101,Calculus I,4,2024-Fall,71
+S9003,,Biology,3,BIO101,Cell Biology,3,2024-Spring,80
+S9004,Diana Okafor,Economics,2,ECON101,Microeconomics,3,2024-Fall,105
+S9004,Diana Okafor,Economics,2,STAT201,Probability & Statistics,3,Fall-2024,77
+S9004,Diana Okafor,Economics,2,MATH101,Calculus I,4,2025-Spring,82
