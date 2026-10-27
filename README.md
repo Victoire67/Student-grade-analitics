@@ -91,17 +91,42 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt   # pytest, mypy
-pip install -e .                  # installs the `grade-analytics` command
+pip install -e .                  # REQUIRED: makes the grade_analytics package importable
 ```
+
+> **Why `pip install -e .` is required:** the code lives in `src/grade_analytics/`
+> (a "src layout"), which Python does not search by default. Skipping this step
+> gives `ModuleNotFoundError: No module named 'grade_analytics'`. The `-e`
+> (editable) flag means code changes take effect without reinstalling.
+>
+> Note the spelling: the package is **`grade_analytics`** (with a *y*), even
+> though the repository is named `Student-grade-analitics`.
 
 The tool itself has **no runtime dependencies** beyond the standard library.
 
 ## Usage
 
+After `pip install -e .`, run from the project folder:
+
 ```bash
-grade-analytics data/students.csv -o reports/report.json
-# or, without installing:
-python -m grade_analytics data/students.csv        # with src/ on PYTHONPATH
+python -m grade_analytics data/students.csv -o reports/report.json
+```
+
+`pip install -e .` also creates a `grade-analytics` shortcut command. It only
+works if Python's `Scripts` folder is on your `PATH` (pip warns you if not),
+so `python -m grade_analytics` is the most reliable way to run it.
+
+To run **without installing**, point Python at the `src` folder:
+
+```powershell
+# Windows PowerShell
+$env:PYTHONPATH = "src"
+python -m grade_analytics data/students.csv
+```
+
+```bash
+# macOS / Linux / Git Bash
+PYTHONPATH=src python -m grade_analytics data/students.csv
 ```
 
 | Option | Default | Description |
@@ -120,7 +145,7 @@ Generate a bigger dataset to try it at scale:
 
 ```bash
 python scripts/generate_sample_data.py -n 50000 -o data/large_students.csv
-grade-analytics data/large_students.csv -o reports/large.json -q   # ~5 s
+python -m grade_analytics data/large_students.csv -o reports/large.json -q   # ~5 s
 ```
 
 ## Input format
@@ -156,7 +181,7 @@ S0002,Tara Mugisha,Biology,2,PHYS101,Mechanics,4,2023-Fall,64
 **Command**
 
 ```bash
-grade-analytics data/students.csv -o reports/report.json
+python -m grade_analytics data/students.csv -o reports/report.json
 ```
 
 **Terminal output** (also in [docs/sample_output.txt](docs/sample_output.txt)):
