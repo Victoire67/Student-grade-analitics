@@ -28,10 +28,10 @@ reports/*.json
 data/large_*.csv
 
 # Editor / OS
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
 # Local Claude Code settings
 .claude/settings.local.json
+.gitignore
